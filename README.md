@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Assessment: Build an NGO Website using React or Next.js
 
-## Getting Started
+**Objective:**
 
-First, run the development server:
+Create a fully functional NGO website using **React** or **Next.js** that is both responsive and visually appealing. The website should be designed to highlight the mission, projects, and contact information of the NGO. 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🔗 NB: [Included media is a reference image to guide the layout and design](https://www.notion.so/Assessment-Build-an-NGO-Website-using-React-or-Next-js-cc6e5397c890412285347c047d36a488?pvs=21) 🔗
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Requirements:**
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. **Homepage:**
+    - Hero section with an image, NGO name, and a brief description of its mission.
+    - Display featured projects or campaigns with images and short descriptions.
+    - Featured Projects and Donations counter (incrementable)
+    - Include a "Donate Now" button that links to a donation form or placeholder.
+2. **About Us Page:**
+    - A section describing the NGO's mission, values, and history.
+    - Include team member profiles with names, titles, and photos.
+3. **Projects/Initiatives Page:**
+    - Showcase the various projects the NGO is involved in.
+    - Each project should have a title, description, and an image.
+4. **Contact Us Page:**
+    - Include a form with fields for name, email, message, and a submit button.
+    - Display the NGO’s email, phone number, and address.
+5. **Navigation:**
+    - Include a top navigation bar with links to the Homepage, About Us, Projects, and Contact Us pages.
+    - Ensure that the navigation bar is responsive on mobile devices.
+6. **Footer:**
+    - Include a footer with links to social media profiles, contact information, and a small newsletter subscription form.
