@@ -47,11 +47,14 @@ const nextConfig = {
                 port: '',
                 pathname: '/512/**',
             },
+            {
+                protocol: 'https',
+                hostname: 'www.clker.com',
+                port: '',
+                pathname: '/cliparts/**',
+            },
           ],
     }
 };
 
-//https://cdn-icons-png.flaticon.com/512/906/906334.png
-
-// https://peopleofcolorintech.com/wp-content/uploads/2022/07/Lekan_Olawoye-Jun2020-1-1080x635.jpg
 export default nextConfig;

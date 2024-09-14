@@ -11,7 +11,7 @@ import Hero from "./components/hero";
 
 export default function Home() {
   return (
-    <main className="bg-slate-100 text-black p-4 border-box">
+    <main className="bg-slate-100 text-black p-4 border-box relative">
       <Header />
       <Hero />
       <ProjectOne />

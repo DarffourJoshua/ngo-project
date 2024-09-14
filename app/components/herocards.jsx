@@ -1,12 +1,12 @@
 'use client';
 import { ArrowUpRightIcon, FaceSmileIcon, HeartIcon } from "@heroicons/react/20/solid";
 import Button from "./button";
-import { Carousel } from "react-responsive-carousel";
+
 
 
 const HeroCards = () => {
     return (
-        <article className="sm:grid sm:grid-cols-5 sm:gap-4 sm:m-10">
+        <article className="hidden sm:grid sm:grid-cols-5 sm:gap-4 sm:m-10">
             <div className=" text-white">
                <Description className={'bg-emerald-900 rounded-xl pt-8 px-2 pb-1 h-64 flex flex-col justify-between mb-4'}>
                     <h3 className="text-base sm:text-2xl sm:font-bold">65%</h3>
