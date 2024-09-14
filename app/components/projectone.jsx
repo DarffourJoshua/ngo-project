@@ -8,9 +8,9 @@ import { Carousel } from "react-responsive-carousel";
 const ProjectOne = () => {
     const projectImg = imgSrc.slice(0, 3);
     const projectTitle = [
-        <h3 key={'head'} className="font-bond text-center" >Support Kids</h3>, 
-        <h3 key={'head'} className="font-bond text-center">Promote Education</h3>, 
-        <h3 key={'head'} className="font-bond text-center">Stop Child labour</h3>
+        <h3 key={'head'} className="font-bold text-center" >Support Kids</h3>, 
+        <h3 key={'head'} className="font-bold text-center">Promote Education</h3>, 
+        <h3 key={'head'} className="font-bold text-center">Stop Child labour</h3>
     ];
     const projectDescription = [
         <p key={'desc'} className="text-center">Support kids in need of <br/>education and basic necessities</p>,
@@ -20,8 +20,7 @@ const ProjectOne = () => {
     return (
         <section id='about'className=" flex flex-col gap-2 bg-lime-300 rounded mx-4 md:mx-12 p-8">
             <h2 className="text-base sm:text-2xl font-bold text-center">
-                Fundraising on WorldLab takes <br/>
-                just a few minutes
+                What is our mission?
             </h2>
             
             <article className="hidden sm:flex sm:justify-around mt-8  ">

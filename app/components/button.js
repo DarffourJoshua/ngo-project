@@ -2,7 +2,7 @@
 const Button = ({text, icon, style}) => {
     return (
         <button className={style}>
-            {text}
+            <p>{text}</p>
             {icon && icon}
         </button>
     );

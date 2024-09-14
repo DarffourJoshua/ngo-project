@@ -30,7 +30,7 @@ const FAQ = () => {
         return newToggle;
     });
     return (
-        <article className='bg-gray-300 text-black my-4 rounded py-4'>
+        <article className='bg-gray-300 text-black my-4 rounded-lg py-4'>
             <h2 className="text-xl font-bold text-center">Frequently asked questions</h2>
             <p className="text-center">Everything to you know</p>
             {faq.map((item, index) => {

@@ -10,14 +10,14 @@ function Header() {
   const [showMenu, setShowMenu] = useState(false);
 
   return (
-    <header className="flex flex-row items-center justify-between sm:justify-between sm:mx-20 p-2 border-b-2 bg-gray-100 sticky top-0 z-50">
+    <header className="flex flex-row items-center justify-between text-xs sm:text-lg p-2 border-b-2 bg-gray-100 sticky top-0 z-50">
       <Link
         href="/"
-        className="flex items-center h-10 px-10 bg-gradient-to-r from-gray-900 via-gray-600 to-gray-500 rounded-tl-full rounded-br-full font-bold uppercase italic text-white hover:opacity-90"
+        className="flex items-center h-10 px-10 bg-gradient-to-r from-lime-900 via-lime-600 to-lime-500 rounded-tl-full rounded-br-full font-bold uppercase italic text-white hover:opacity-90"
       >
         WorldLab
       </Link>
-      <nav className="hidden sm:flex sm:justify-around items-center sm:gap-4 font-semibold ">
+      <nav className="hidden sm:flex sm:justify-around items-center sm:gap-4 text-xs sm:text-sm font-semibold ">
         <Link href="#hero" className=" p-4 hover:bg-[#334155] hover:text-[#e2e8f0] rounded-xl m-2 cursor-pointer duration-300">
           Home
         </Link>

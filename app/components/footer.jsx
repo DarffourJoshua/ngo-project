@@ -9,7 +9,7 @@ const Footer = () => {
     return (
         <footer className="
             bg-emerald-900 p-2 md:p-4 lg:p-6 xl:p-8 2xl:p-10
-            text-center rounded text-white
+            text-center rounded-lg text-white
         ">
             <Button
                 text="Donate now"

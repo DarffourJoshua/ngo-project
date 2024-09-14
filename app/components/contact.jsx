@@ -1,62 +1,44 @@
 'use client';
-import Image from "next/image";
-import Button from "./button";
-import imgSrc from "./imageURLs";
+import { CiMail } from "react-icons/ci";
+import { FaPhoneAlt } from "react-icons/fa";
+import { SiGooglemaps } from "react-icons/si";
+import Link from "next/link";
+import Form from "./forms";
+
 
 const Contact = () => {
-    const contactImg = imgSrc.slice(-8, -4);
     // console.log(contactImg);
     return (
-        <section id="contact" className="flex justify-center gap-20 items-start my-8">
-               <div className="hidden md:block">
-                    <Image 
-                        src={contactImg[0].src} 
-                        height={contactImg[0].h} 
-                        width={contactImg[0].w} 
-                        alt="contact"
-                        className="rounded-lg mb-8"
-                    />
-                    <Image 
-                        src={contactImg[1].src} 
-                        height={contactImg[1].h} 
-                        width={contactImg[1].w} 
-                        alt="contact"
-                        className="rounded-lg mt-8" 
-                    />
-               </div>
-            
-                <div className="text-center w-1/2 md:2/3">
-                    <p >
-                        Join our community for donating and be a part of a positive
-                        change in the world. We are looking forward to hearing from you
-                    </p>
-                    <p className="mt-4">
-                        With over a 100,000 members 
-                    </p>
-                    <Button 
-                        style={"bg-gray-800 text-white text-xs rounded-2xl my-1 px-4 py-2"}
-                        text={"Yes, I want to make an impact"}
-                    />
+        <section id="contact" className="my-8">
+                <h3 className="text-center text-lg sm:text-2xl font-bold mb-8">Find out more ongoing events</h3>
+               <article className="flex mx-2 justify-around flex-col sm:flex-row">
+               <div className="flex  items-center gap-4">
+                    <Link href={'#'}>
+                        <CiMail/>
+                    </Link>
+                    <p className="ml-auto">worldlab@mail.ngo</p>
                 </div>
-                <div className="hidden md:block">
-                    <Image 
-                        src={contactImg[2].src} 
-                        height={contactImg[2].h} 
-                        width={contactImg[1].w} 
-                        alt="contact"
-                        className="rounded-lg mb-8"
-                    />
-                    <Image 
-                        src={contactImg[3].src} 
-                        height={contactImg[3].h} 
-                        width={contactImg[3].w} 
-                        alt="contact"
-                        className="rounded-lg mt-8"
-                    />
+              
+                <div className="flex items-center gap-4">
+                    <Link href={'#'}>
+                        <FaPhoneAlt/>
+                    </Link>
+                    <p className="ml-auto">+233269783902</p>
                 </div>
+              
+                <div className="flex items-center gap-4">
+                    <Link href={'#'}>
+                        <SiGooglemaps/>
+                    </Link>
+                    <p className="ml-auto">Opp SIC</p>
+                </div>
+               </article>
+            <Form/>
             
         </section>
     );
 }
 
 export default Contact;
+
+
