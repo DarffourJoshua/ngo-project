@@ -1,4 +1,3 @@
-
 'use client';
 import { useState } from "react";
 import { PlusCircleIcon, MinusCircleIcon } from "@heroicons/react/20/solid";
@@ -31,25 +30,29 @@ const FAQ = () => {
         return newToggle;
     });
     return (
-        <artcile className='bg-lime-400'>
-            <h3 className="text-md font-bold text-center">Frequently asked questions</h3>
+        <article className='bg-gray-300 text-black my-4 rounded py-4'>
+            <h2 className="text-xl font-bold text-center">Frequently asked questions</h2>
             <p className="text-center">Everything to you know</p>
             {faq.map((item, index) => {
                     return (
-                        <div className="pl-4" key={index}>
-                            <h4 className="inline-block ">
-                                {item.question}
-                            </h4>
-                            {toggle[index] ?    
-                                <MinusCircleIcon onClick={() => handleClick(index)} className="w-3 h-3 inline ml-auto"/> :
-                                <PlusCircleIcon onClick={() => handleClick(index)} className="w-3 h-3 inline ml-auto"/>
-                            }
-                            <p>{toggle[index] && item.answer}</p>
+                        <div className="p-4" key={index}>
+                            <div className="flex items-center justify-between">
+                                <h4 className="font-bold text-sm md:text-lg">
+                                    {item.question}
+                                </h4>
+                                <span className="">
+                                    {toggle[index] ?    
+                                        <MinusCircleIcon onClick={() => handleClick(index)} className="w-3 h-3 ml-auto"/> :
+                                        <PlusCircleIcon onClick={() => handleClick(index)} className="w-3 h-3  ml-auto items-start"/>
+                                    }
+                                </span>
+                            </div>
+                            <p className="my-1 text-xs md:text-sm">{toggle[index] && item.answer}</p>
                         </div>
                     );
             })}
             
-        </artcile>
+        </article>
     );
 }
 

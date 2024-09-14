@@ -1,9 +1,13 @@
-const Card = ({title, description, btn, style}) => {
+'use client';
+
+const Card = ({description, btn, img, mainDev, minorDiv}) => {
     return (
-        <div className={style}>
-            <h2>{title}</h2>
-            <p>{description}</p>
-            {btn && btn}
+        <div className={`relative overflow-hidden ${mainDev}`}>
+            {img && img}
+            <div className={` absolute w-full ${minorDiv}`}> 
+                {description}
+                {btn && btn}
+            </div>
         </div>
     );
 }

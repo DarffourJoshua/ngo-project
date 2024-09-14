@@ -9,7 +9,7 @@ const Footer = () => {
     return (
         <footer className="
             bg-emerald-900 p-2 md:p-4 lg:p-6 xl:p-8 2xl:p-10
-            text-center
+            text-center rounded text-white
         ">
             <Button
                 text="Donate now"
@@ -18,7 +18,7 @@ const Footer = () => {
                     className="w-4 h-4 ml-6 bg-lime-500 rounded"
                 />}
             />
-            <div className="flex justify-between items-center text-xs md:text-sm md:gap-3 p-1 sm:p-2 mb-2">
+            <div className="flex justify-between items-start text-xs md:text-sm md:items-start md:gap-3 p-1 sm:p-2 mb-2">
                 <p>&copy;2024<span className="hidden sm:inline">, WorldLab NGO</span></p>
                 <Link href={'#'} >
                     Privacy Policy
