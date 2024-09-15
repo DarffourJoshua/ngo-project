@@ -5,7 +5,7 @@ import HeroCards from "./herocards";
 
 const Hero = () => {
     return (
-        <section id='hero' className="sm:h-full">
+        <section id='hero' className="sm:h-full xl:h-lvh">
             <article className="text-center flex flex-col items-center mx-auto w-2/3  my-4">
                 <h1 className="sm:text-3xl text-xl font-black animate-slidein">Great future are built with a small charity</h1>
                 <p className="sm:text-lg">The world&apos;s largest social fundraising platform, optimized for your charity in a more easy way</p>

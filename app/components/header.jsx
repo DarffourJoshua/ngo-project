@@ -34,14 +34,14 @@ function Header() {
 
         <button
           onClick={() => setShowMenu(!showMenu)}
-          className='block md:hidden'
+          className={`block md:hidden`}
         >
           {showMenu ? <MdClose /> : <RxHamburgerMenu />}
         </button>
         <nav className={
             `${showMenu
-              ? "fixed sm:hidden left-0 top-0 w-[60%] h-auto border rounded-xl border-r-lime-600 border-b-lime-600 bg-[#f7fee7] ease-in-out duration-500"
-              : "ease-in-out w-[60%] duration-500 fixed top-0 bottom-0 left-[-100%]"}`
+              ? "fixed sm:hidden left-0  w-[60%] h-auto border rounded-xl border-r-lime-600 border-b-lime-600 bg-[#f7fee7] ease-in-out duration-500"
+              : "ease-in-out w-[60%] duration-500 fixed left-[-100%]"}`
           }>
         
         
