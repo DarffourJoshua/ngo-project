@@ -37,7 +37,7 @@ const FAQ = () => {
                     return (
                         <div className="p-4" key={index}>
                             <div className="flex items-center justify-between">
-                                <h4 className="font-bold text-sm md:text-lg">
+                                <h4 className="font-bold text-sm md:text-lg" onClick={() => handleClick(index)}>
                                     {item.question}
                                 </h4>
                                 <span className="">
