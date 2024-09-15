@@ -11,7 +11,7 @@ const Contact = () => {
     return (
         <section id="contact" className="my-8">
                 <h3 className="text-center text-lg sm:text-2xl font-bold mb-8">Find out more ongoing events</h3>
-               <article className="flex mx-4 items-start justify-start flex-col sm:flex-row">
+               <article className="flex mx-4 items-start justify-start flex-col sm:flex-row sm:justify-evenly">
                <div className="flex  items-center gap-4">
                     <Link href={'#'} className="">
                         <CiMail/>
