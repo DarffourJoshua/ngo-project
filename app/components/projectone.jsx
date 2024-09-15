@@ -32,7 +32,7 @@ const ProjectOne = () => {
                                 title={projectTitle[index]}
                                 figcaption={projectDescription[index]}
                                 src={item.src}
-                                divStyle="w-40 h-50 p-1 mx-auto animate-slideup"
+                                divStyle="w-40 h-50 p-1 mx-auto animate-fadeInDown"
                                 imgStyle={
                                     {   objectFit:"cover", 
                                         marginLeft:"5rem", 
@@ -51,9 +51,10 @@ const ProjectOne = () => {
                 }
             </article>
             <Carousel 
-                showArrows={false} 
+                showArrows={true} 
                 showThumbs={false}
                 showStatus={false}
+                showIndicators={false}
                 className="sm:hidden"
             >
             {
@@ -64,7 +65,7 @@ const ProjectOne = () => {
                                 title={projectTitle[index]}
                                 figcaption={projectDescription[index]}
                                 src={item.src}
-                                divStyle="w-40 h-50 p-1 mx-auto animate-slideup"
+                                divStyle="w-40 h-50 p-1 mx-auto animate-fadeInDown"
                                 imgStyle={
                                     {   objectFit:"cover", 
                                         marginLeft:"auto", 

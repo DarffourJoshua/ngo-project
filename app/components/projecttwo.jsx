@@ -28,12 +28,12 @@ const ProjectTwo = () => {
     ];
     
     const imgStyle = [
-        'object-cover w-28 h-32 sm:w-4/5 sm:h-56 rounded-2xl grayscale',
-        'object-cover w-28 h-32 sm:w-4/5 sm:h-40 rounded-2xl grayscale',
-        'object-cover w-28 h-32 sm:w-4/5 sm:h-2/5 rounded-2xl grayscale',
-        'object-cover w-28 h-32 sm:w-4/5 sm:h-2/5 rounded-2xl grayscale',
-        'object-cover w-28 h-32 sm:w-4/5 sm:h-44 rounded-2xl grayscale',
-        'object-cover w-28 h-32 sm:w-4/5 sm:h-60 rounded-2xl grayscale'
+        'object-cover w-24 h-48 sm:w-4/5 sm:h-56 rounded-2xl grayscale',
+        'object-cover w-28 h-48 sm:w-4/5 sm:h-40 rounded-2xl grayscale',
+        'object-cover w-28 h-48 sm:w-4/5 sm:h-2/5 rounded-2xl grayscale',
+        'object-cover w-28 h-48 sm:w-4/5 sm:h-2/5 rounded-2xl grayscale',
+        'object-cover w-28 h-48 sm:w-4/5 sm:h-44 rounded-2xl grayscale',
+        'object-cover w-28 h-48 sm:w-4/5 sm:h-60 rounded-2xl grayscale'
     ]
 
     const mainDivStyle = [
@@ -49,7 +49,7 @@ const ProjectTwo = () => {
 
     return (
         <section id="project" className="my-8 ">
-            <h2 className="font-bold ml-20 text-bold text-xl my-2">We appreciate your little help</h2>
+            <h2 className="font-bold text-center text-bold sm:text-xl my-2">We appreciate your little help</h2>
             <article className="hidden sm:grid sm:grid-cols-3">
                 {projectTwoImg.map((item, index) => {
                     return (

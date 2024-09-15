@@ -42,8 +42,8 @@ const FAQ = () => {
                                 </h4>
                                 <span className="">
                                     {toggle[index] ?    
-                                        <MinusCircleIcon onClick={() => handleClick(index)} className="w-3 h-3 ml-auto"/> :
-                                        <PlusCircleIcon onClick={() => handleClick(index)} className="w-3 h-3  ml-auto items-start"/>
+                                        <MinusCircleIcon onClick={() => handleClick(index)} className="w-3 h-3 sm:w-8 sm:h-8 ml-auto"/> :
+                                        <PlusCircleIcon onClick={() => handleClick(index)} className="w-3 h-3 sm:w-8 sm:h-8  ml-auto items-start"/>
                                     }
                                 </span>
                             </div>
