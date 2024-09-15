@@ -3,7 +3,7 @@
 import Image from "next/image";
 
 const CardWithImg = ( props ) => {
-    const {title, figcaption, src, divStyle, imgStyle, w,h} = props;
+    const {title, figcaption, src, divStyle, imgStyle, w,h, className} = props;
     return (
         <div className={divStyle}>
             <div style={{position:"relative", width:'190px', height: '120px' }}>
@@ -13,6 +13,7 @@ const CardWithImg = ( props ) => {
                     width={w} 
                     height={h} 
                     style={imgStyle}
+                    className={className}
                 />
             </div>            
             <h3 className="text-bold">{title}</h3>

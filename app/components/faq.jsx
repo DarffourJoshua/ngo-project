@@ -17,7 +17,7 @@ const faq = [
     },
     {
         question: "How can I contact WorldLab NGO?",
-        answer: "You can contact WorldLab NGO by subscribing to our newsletter or by sending us an email at wordlab@email.org",
+        answer: "You can contact WorldLab NGO by subscribing to our newsletter or by sending us an email at wordlab@mail.ngo",
     }
 ];
 

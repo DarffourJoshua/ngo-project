@@ -8,9 +8,9 @@ import { Carousel } from "react-responsive-carousel";
 const ProjectOne = () => {
     const projectImg = imgSrc.slice(0, 3);
     const projectTitle = [
-        <h3 key={'head'} className="font-bold text-center" >Support Kids</h3>, 
-        <h3 key={'head'} className="font-bold text-center">Promote Education</h3>, 
-        <h3 key={'head'} className="font-bold text-center">Stop Child labour</h3>
+        <h3 key={'head'} className="font-bold text-center hover:border-s-4 hover:border-e-4 hover:border-lime-500" >Support Kids</h3>, 
+        <h3 key={'head'} className="font-bold text-center hover:border-s-4 hover:border-e-4 hover:border-lime-500">Promote Education</h3>, 
+        <h3 key={'head'} className="font-bold text-center hover:border-s-4 hover:border-e-4 hover:border-lime-500">Stop Child labour</h3>
     ];
     const projectDescription = [
         <p key={'desc'} className="text-center">Support kids in need of <br/>education and basic necessities</p>,
@@ -32,7 +32,7 @@ const ProjectOne = () => {
                                 title={projectTitle[index]}
                                 figcaption={projectDescription[index]}
                                 src={item.src}
-                                divStyle=""
+                                divStyle="w-40 h-50 p-1 mx-auto animate-slideup"
                                 imgStyle={
                                     {   objectFit:"cover", 
                                         marginLeft:"5rem", 
@@ -40,6 +40,7 @@ const ProjectOne = () => {
                                         width:'50%', 
                                         height:'70%',
                                         borderRadius: '80%',
+                                        
                                     }
                                 }
                                 w={item.w}
@@ -63,7 +64,7 @@ const ProjectOne = () => {
                                 title={projectTitle[index]}
                                 figcaption={projectDescription[index]}
                                 src={item.src}
-                                divStyle="w-40 h-50 p-1"
+                                divStyle="w-40 h-50 p-1 mx-auto animate-slideup"
                                 imgStyle={
                                     {   objectFit:"cover", 
                                         marginLeft:"auto", 

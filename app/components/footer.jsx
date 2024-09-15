@@ -13,9 +13,9 @@ const Footer = () => {
         ">
             <Button
                 text="Donate now"
-                style="bg-teal-600 flex rounded items-center  sm:ml-4 justify-center text-s p-2 sm:p-4 text-xs sm:text-sm mb-3"
+                style="bg-[#6ee7b7] hover:bg-[#059669] flex rounded-md items-center  sm:ml-4 justify-center text-s p-2 sm:px-4 text-xs sm:text-sm mb-3"
                 icon={<ArrowUpRightIcon
-                    className="w-4 h-4 ml-6 bg-lime-500 rounded"
+                    className="w-4 h-4 ml-6 bg-lime-500 rounded-full hover:bg-lime-700"
                 />}
             />
             <div className="flex justify-between items-start text-xs md:text-sm md:items-start md:gap-3 p-1 sm:p-2 mb-2">
@@ -41,7 +41,7 @@ const Footer = () => {
                 />
                 <Button
                     text="Subscribe"
-                    style="bg-teal-600 flex rounded items-center ml-4 justify-center p-2"
+                    style="bg-[#0d9488] hover:bg-[#115e59] border border-teal-500 hover:border-slate-100 flex rounded-md items-center ml-4 justify-center p-2"
                 />
 
                    
